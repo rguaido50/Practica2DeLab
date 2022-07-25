@@ -23,6 +23,12 @@ headers = {
 }
 
 response = requests.get(url, headers = headers, data = payload)
+#Validamos que la solicitud se realizo correctamente
+if(response.raise_for_status()==None):
+    print("La consulta fue realizada correctamente.")
+else:
+    exit()
+
 
 organizations = response.text.encode('utf8')
 #pprint(organizations)
@@ -58,6 +64,12 @@ headers1 = {
 
 response = requests.get(url1, headers = headers1, data = payload1)
 #pprint(response.json())
+
+#Validamos que la solicitud se realizo correctamente
+if(response.raise_for_status()==None):
+    print("La consulta fue realizada correctamente.")
+else:
+    exit()
 
 response_list = response.json()
 #Creamos las listas de los devices

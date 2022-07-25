@@ -14,3 +14,6 @@ informacion solicitada. Los devices son guardados en un archivo .csv que no sera
 compartido en el repositorio. 
 Para obtener los dispositivos debe ingresar, de la lista mostrada, de que 
 organizacion desea adquirir la informacion de los devices.
+
+Se Agrego la Solicitud de verificar que el programa esta obteniendo la 
+respuesta deseada.
