@@ -82,8 +82,8 @@ for device in response_list:
     if device['productType'] == 'appliance':
         appliance_list.append(device)
 
-print(wireless_list)
-print(appliance_list)
+#print(wireless_list)
+#print(appliance_list)
 
 features = ['modelo','nombre','MAC','IPpub','IPLAN','numSerial','status']
 

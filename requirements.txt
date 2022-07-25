@@ -1,0 +1,6 @@
+Son necesarias las siguientes librerias:
+pprint
+requests
+json
+csv
+

@@ -17,3 +17,10 @@ organizacion desea adquirir la informacion de los devices.
 
 Se Agrego la Solicitud de verificar que el programa esta obteniendo la 
 respuesta deseada.
+
+Se obtiene mediante la funicon get la lista de las organizaciones de
+meraki, son guardadas y luego mostradas al usuario para que pueda 
+seleccionar de que organizacion desea obtener la lista de los dispositivos
+luego se obtiene esta lista mediante get y son guardadas en un .csv
+
+Para finalizar luego de cada solicitud se hace una validacion de esta.
