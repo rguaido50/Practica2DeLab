@@ -24,3 +24,7 @@ seleccionar de que organizacion desea obtener la lista de los dispositivos
 luego se obtiene esta lista mediante get y son guardadas en un .csv
 
 Para finalizar luego de cada solicitud se hace una validacion de esta.
+
+Se Modificaron las funciones para poder ejecutar un temporizador que 
+mantenga actualizado un archivo .csv con el status de los dispositivos 
+deseados. 
