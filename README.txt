@@ -30,3 +30,6 @@ mantenga actualizado un archivo .csv con el status de los dispositivos
 deseados. 
 
 Se agrega un archivo Docker para crear un contenedor del script
+
+Se agrega un archivo docker-compose.yml para crear un contenedor y un volumen 
+asociado al script para guardar cada 5min la actualizacion de los dispositivos
