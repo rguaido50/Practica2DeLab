@@ -1,0 +1,9 @@
+services:
+  contenedor:
+    image: imgdelab
+    volumes:
+      - "volumen:/usr/src/app imgdelab"
+version: '3.10'
+volumes:
+  volumen:
+    external: true
