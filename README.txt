@@ -28,3 +28,5 @@ Para finalizar luego de cada solicitud se hace una validacion de esta.
 Se Modificaron las funciones para poder ejecutar un temporizador que 
 mantenga actualizado un archivo .csv con el status de los dispositivos 
 deseados. 
+
+Se agrega un archivo Docker para crear un contenedor del script
